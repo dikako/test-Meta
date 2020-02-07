@@ -1,0 +1,6 @@
+{
+  "baseUrl": "http://rc-ssr.rctiplus.com",
+  "userAgent": "testing",
+  "chromeWebSecurity": false,
+  "projectId": "456khc"
+}
