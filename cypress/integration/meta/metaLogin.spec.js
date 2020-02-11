@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/login';
-let title = 'Halaman Login Akun - RCTI+\n';
-let desc = 'Tempat login akun dan nonton tayangan streaming tv online gratis di RCTI+\n';
+let title = 'Halaman Login Akun - RCTI+';
+let desc = 'Tempat login akun dan nonton tayangan streaming tv online gratis di RCTI+';
 let keyword = 'login rctiplus, login rcti+, masuk rctiplus, rctiplus';
 
 it('Meta Login', () => { 

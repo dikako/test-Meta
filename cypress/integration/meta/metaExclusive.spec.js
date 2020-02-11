@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive';
-let title = 'Nonton Tayangan Menarik dan Terbaru dari RCTI, MNC, GTV, iNews - RCTI+\n';
-let desc = 'Nonton acara dan tayangan TV terbaru favoritmu dan jangan lewatkan berita terbaru program RCTI, MNC, GTV, dan iNews eksklusif hanya di RCTI+\n';
+let title = 'Nonton Tayangan Menarik dan Terbaru dari RCTI, MNC, GTV, iNews - RCTI+';
+let desc = 'Nonton acara dan tayangan TV terbaru favoritmu dan jangan lewatkan berita terbaru program RCTI, MNC, GTV, dan iNews eksklusif hanya di RCTI+';
 let keyword = 'tayangan tv';
 
 it('Meta Exclusive', () => { 

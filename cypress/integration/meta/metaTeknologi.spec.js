@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/8/teknologi';
-let title = 'Berita Teknologi IT dan Sains Terbaru Hari Ini - RCTI+\n';
-let desc = 'Kumpulan berita, artikel dan tips terhangat seputar teknologi, sains, gadget dan elektronik nasional dan internasional terkini di Indonesia\n';
+let title = 'Berita Teknologi IT dan Sains Terbaru Hari Ini - RCTI+';
+let desc = 'Kumpulan berita, artikel dan tips terhangat seputar teknologi, sains, gadget dan elektronik nasional dan internasional terkini di Indonesia';
 let keyword = 'berita teknologi, berita gadget hari ini, berita teknologi terbaru';
 
 it('Meta Teknologi', () => { 

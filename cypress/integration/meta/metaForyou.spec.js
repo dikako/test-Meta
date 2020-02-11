@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores';
-let title = 'Nonton Kumpulan Program TV dan Sinetron RCTI, MNC, GTV, iNews - RCTI+\n';
-let desc = 'Nonton kumpulan program, sinetron dan acara TV RCTI, MNC TV, GTV, iNews terbaru full episode tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Kumpulan Program TV dan Sinetron RCTI, MNC, GTV, iNews - RCTI+';
+let desc = 'Nonton kumpulan program, sinetron dan acara TV RCTI, MNC TV, GTV, iNews terbaru full episode tanpa buffering hanya di RCTI+';
 let keyword = 'program TV';
 
 it('Meta For You', () => { 

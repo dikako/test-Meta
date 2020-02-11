@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=26';
-let title = 'Nonton Program Religi dan Sinetron Religi Terbaru - RCTI+\n';
-let desc = 'Nonton film religi, azab, dan program siraman rohani terupdate, lengkap dan tidak membosankan tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Program Religi dan Sinetron Religi Terbaru - RCTI+';
+let desc = 'Nonton film religi, azab, dan program siraman rohani terupdate, lengkap dan tidak membosankan tanpa buffering hanya di RCTI+';
 let keyword = 'film religi, nonton film religi';
 
 it('Meta Relijius', () => { 

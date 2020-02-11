@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/photo';
-let title = 'Kumpulan Foto Artis dan Poster Menarik Talent Indonesia - RCTI+\n';
-let desc = 'Lihat kumpulan foto artis cantik dan ganteng dalam negeri dan luar negeri lengkap dengan posternya\n';
+let title = 'Kumpulan Foto Artis dan Poster Menarik Talent Indonesia - RCTI+';
+let desc = 'Lihat kumpulan foto artis cantik dan ganteng dalam negeri dan luar negeri lengkap dengan posternya';
 let keyword = 'foto artis, foto artis cantik, foto artis ganteng';
 
 it('Meta Photo', () => { 

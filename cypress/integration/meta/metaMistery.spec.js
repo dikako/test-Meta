@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=41';
-let title = 'Nonton Program Misteri Horor Paling Seram Terbaru - RCTI+\n';
-let desc = 'Nonton acara horor, misteri, mitos untuk menguak semua pengalaman mengerikan hanya di RCTI+\n';
+let title = 'Nonton Program Misteri Horor Paling Seram Terbaru - RCTI+';
+let desc = 'Nonton acara horor, misteri, mitos untuk menguak semua pengalaman mengerikan hanya di RCTI+';
 let keyword = 'video horor, acara horor, program horor, film horor';
 
 it('Meta Mistery', () => { 

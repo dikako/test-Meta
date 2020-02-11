@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=42';
-let title = 'Nonton Film Kartun Lucu dan Program TV Anak Lainnya - RCTI+\n';
-let desc = 'Nonton tayangan program dan acara kartun animasi, kartun anak lucu dan paling baru hanya di RCTI+\n';
+let title = 'Nonton Film Kartun Lucu dan Program TV Anak Lainnya - RCTI+';
+let desc = 'Nonton tayangan program dan acara kartun animasi, kartun anak lucu dan paling baru hanya di RCTI+';
 let keyword = 'film kartun, film kartun lucu, film kartun anak';
 
 it('Meta Children', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/6/kesehatan';
-let title = 'Berita Terkini Dunia Kesehatan dari Sumber Terpercaya - RCTI+\n';
-let desc = 'Kumpulan berita, artikel dan tips kesehatan terpercaya, mulai dari diet, olahraga, parenting, penyakit, obat hingga seks\n';
+let title = 'Berita Terkini Dunia Kesehatan dari Sumber Terpercaya - RCTI+';
+let desc = 'Kumpulan berita, artikel dan tips kesehatan terpercaya, mulai dari diet, olahraga, parenting, penyakit, obat hingga seks';
 let keyword = 'berita kesehatan, artikel kesehatan, tips kesehatan';
 
 it('Meta Kesehatan', () => { 

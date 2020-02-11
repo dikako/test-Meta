@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=6';
-let title = 'Nonton Video dan Acara Komedi Paling Lucu dan Terbaru - RCTI+\n';
-let desc = 'Nonton video komedi paling lucu dari seluruh tayangan dan program RCTI, MNC TV, GTV, dan iNews. Selengkapnya hanya ada di RCTI+\n';
+let title = 'Nonton Video dan Acara Komedi Paling Lucu dan Terbaru - RCTI+';
+let desc = 'Nonton video komedi paling lucu dari seluruh tayangan dan program RCTI, MNC TV, GTV, dan iNews. Selengkapnya hanya ada di RCTI+';
 let keyword = 'acara komedi, video komedi';
 
 it('Meta Comedy', () => { 

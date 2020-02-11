@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2020-02-09T16:04:40.886Z",
+    "end": "2020-02-09T16:06:06.413Z",
+    "duration": 85527,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8c15669b-f1f1-4b4e-a6ff-33cc8b64b626",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaTrending.spec.js",
+      "file": "cypress\\integration\\meta\\metaTrending.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Trending",
+          "fullTitle": " Meta Trending",
+          "timedOut": null,
+          "duration": 60503,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaTrending.spec.js/ -- Meta Trending (failed).png\"",
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {
+            "message": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.",
+            "estack": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at timedOutWaitingForPageLoad (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:86578:17)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:87361:16\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:131229:41\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "7e7e87a1-fe58-4512-a888-7083e123b84c",
+          "parentUUID": "8c15669b-f1f1-4b4e-a6ff-33cc8b64b626",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 4677,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaTrending.spec.js/ -- Validate Meta Title (failed).png\"",
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Informasi Berita Trending dan Terkini dari Berbagai Sumber Terpercaya - RCTI+\\n', but the value was 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Informasi Berita Trending dan Terkini dari Berbagai Sumber Terpercaya - RCTI+\\n', but the value was 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "bfc83bd3-07af-4304-b0c8-e5148f186ff8",
+          "parentUUID": "8c15669b-f1f1-4b4e-a6ff-33cc8b64b626",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 4440,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaTrending.spec.js/ -- Validate Meta Description (failed).png\"",
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'RCTI+ - Indeks portal berita trending Indonesia dan dunia hari ini dari berbagai situs terpercaya, mulai dari peristiwa, politik, hukum, ekonomi, bola, hingga gosip artis terbaru\\n', but the value was 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'RCTI+ - Indeks portal berita trending Indonesia dan dunia hari ini dari berbagai situs terpercaya, mulai dari peristiwa, politik, hukum, ekonomi, bola, hingga gosip artis terbaru\\n', but the value was 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "0291f5bb-cd5a-4886-aae3-1a12e875f5e7",
+          "parentUUID": "8c15669b-f1f1-4b4e-a6ff-33cc8b64b626",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 4433,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaTrending.spec.js/ -- Validate Meta Keyword (failed).png\"",
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'berita trending\\n', but the value was 'berita top, berita top hari ini, berita teratas\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'berita trending\\n', but the value was 'berita top, berita top hari ini, berita teratas\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "1be5c07d-aede-4fb7-bb8c-731f2593d2ca",
+          "parentUUID": "8c15669b-f1f1-4b4e-a6ff-33cc8b64b626",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "7e7e87a1-fe58-4512-a888-7083e123b84c",
+        "bfc83bd3-07af-4304-b0c8-e5148f186ff8",
+        "0291f5bb-cd5a-4886-aae3-1a12e875f5e7",
+        "1be5c07d-aede-4fb7-bb8c-731f2593d2ca"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 74053,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

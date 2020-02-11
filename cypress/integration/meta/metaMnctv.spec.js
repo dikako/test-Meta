@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/tv/mnctv';
-let title = 'Live Streaming MNC TV Hari Ini | TV Online Indonesia - RCTI+\n';
-let desc = 'Nonton live streaming MNC TV online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara MNC TV terbaru hanya di RCTI+\n';
+let title = 'Live Streaming MNC TV Hari Ini | TV Online Indonesia - RCTI+';
+let desc = 'Nonton live streaming MNC TV online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara MNC TV terbaru hanya di RCTI+';
 let keyword = 'mnctv, live streaming mnctv sekarang, mnctv online, tv mnctv, tv bersama mnctv';
 
 it('Meta MNCTV', () => { 

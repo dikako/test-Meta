@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=17';
-let title = 'Saksikan Program Infotainment dan Gosip Artis Terbaru dan Teraktual - RCTI+\n';
-let desc = 'Nonton gosip infotainment artis top paling update dan seru untuk ditonton terkait gaya hidup, kasus, perjalanan karir dan lainnya hanya di RCTI+\n';
+let title = 'Saksikan Program Infotainment dan Gosip Artis Terbaru dan Teraktual - RCTI+';
+let desc = 'Nonton gosip infotainment artis top paling update dan seru untuk ditonton terkait gaya hidup, kasus, perjalanan karir dan lainnya hanya di RCTI+';
 let keyword = 'kabar artis, kabar artis terbaru';
 
 it('Meta Infotainment', () => { 

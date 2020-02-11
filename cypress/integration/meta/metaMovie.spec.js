@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=58';
-let title = 'Nonton Film, Drama dan Serial Favorit Terbaru - RCTI+\n';
-let desc = 'Nonton film Indonesia online, drama korea, jepang, barat, dan bollywood terbaru. Pilih dan tonton online favoritmu hanya di RCTI+\n';
+let title = 'Nonton Film, Drama dan Serial Favorit Terbaru - RCTI+';
+let desc = 'Nonton film Indonesia online, drama korea, jepang, barat, dan bollywood terbaru. Pilih dan tonton online favoritmu hanya di RCTI+';
 let keyword = 'nonton film online, nonton film streaming, nonton drakor, nonton movie online';
 
 it('Meta Movie', () => { 

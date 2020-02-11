@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/privacy-policy';
-let title = 'Halaman Privacy Policy - RCTI+\n';
-let desc = 'Kebijakan privasi ini menjelaskan teknik dan proses kerja kami tentang informasi yang terkumpul melalui layanan internet, mobile, aplikasi dan widget pada RCTI+\n';
+let title = 'Halaman Privacy Policy - RCTI+';
+let desc = 'Kebijakan privasi ini menjelaskan teknik dan proses kerja kami tentang informasi yang terkumpul melalui layanan internet, mobile, aplikasi dan widget pada RCTI+';
 let keyword = 'privasi rctiplus, privasi rcti+, rctiplus';
 
 it('Meta Privacy Police', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/entertainment';
-let title = 'Nonton Video Gosip Kabar Artis Indonesia Terbaru - RCTI+\n';
-let desc = 'Nonton gosip dan video entertainment viral terbaru dari para artis dan selebritis tanah air dan internasional yang sedang sensasional\n';
+let title = 'Nonton Video Gosip Kabar Artis Indonesia Terbaru - RCTI+';
+let desc = 'Nonton gosip dan video entertainment viral terbaru dari para artis dan selebritis tanah air dan internasional yang sedang sensasional';
 let keyword = 'gosip, kabar artis';
 
 it('Meta Entertainment', () => { 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.395999999999999" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-09T13:47:24" tests="4" file="cypress\integration\meta\metaBts.spec.js" failures="0" time="15.395999999999999">
+    <testcase name=" Meta BTS" time="14.984" classname="Meta BTS">
+    </testcase>
+    <testcase name=" Validate Meta Title" time="0.349" classname="Validate Meta Title">
+    </testcase>
+    <testcase name=" Validate Meta Description" time="0.03" classname="Validate Meta Description">
+    </testcase>
+    <testcase name=" Validate Meta Keyword" time="0.033" classname="Validate Meta Keyword">
+    </testcase>
+  </testsuite>
+</testsuites>

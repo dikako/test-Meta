@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/faq';
-let title = 'Halaman Frequently Ask and Questions - RCTI+\n';
-let desc = 'Pertanyaan yang paling sering diajukan terkait informasi penggunaan dan program tayangan di RCTI+ beserta jawabannya\n';
+let title = 'Halaman Frequently Ask and Questions - RCTI+';
+let desc = 'Pertanyaan yang paling sering diajukan terkait informasi penggunaan dan program tayangan di RCTI+ beserta jawabannya';
 let keyword = 'faq rctiplus, faq rcti+, cara pakai rctiplus, rctiplus';
 
 it('Meta FAQ', () => { 

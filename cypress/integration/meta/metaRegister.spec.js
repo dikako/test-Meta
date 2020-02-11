@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/register';
-let title = 'Halaman Sign Up / Pendaftaran Akun - RCTI+\n';
-let desc = 'Pertanyaan yang paling sering diajukan terkait informasi penggunaan dan program tayangan di RCTI+ beserta jawabannyaTempat pendaftaran / register akun di RCTI+. Buruan register sekarang, gratis streaming online sepuasnya\n';
+let title = 'Halaman Sign Up / Pendaftaran Akun - RCTI+';
+let desc = 'Pertanyaan yang paling sering diajukan terkait informasi penggunaan dan program tayangan di RCTI+ beserta jawabannyaTempat pendaftaran / register akun di RCTI+. Buruan register sekarang, gratis streaming online sepuasnya';
 let keyword = 'register rctiplus, register rcti+, daftar rctiplus, rctiplus';
 
 it('Meta Register', () => { 

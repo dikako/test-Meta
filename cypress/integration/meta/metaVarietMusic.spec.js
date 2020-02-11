@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=33';
-let title = 'Nonton Video Musik Lengkap dan Terbaru - RCTI+\n';
-let desc = 'Nonton video dan acara musik terbaru dan terkini lagi viral nasional dan internasional gratis tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Video Musik Lengkap dan Terbaru - RCTI+';
+let desc = 'Nonton video dan acara musik terbaru dan terkini lagi viral nasional dan internasional gratis tanpa buffering hanya di RCTI+';
 let keyword = 'video musik, acara musik, program musik';
 
 it('Meta Variete Musik', () => { 

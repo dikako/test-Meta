@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/terms-&-conditions';
-let title = 'Halaman Terms and Conditions - RCTI+\n';
-let desc = 'Untuk menggunakan layanan RCTI+, Anda harus mengikuti syarat dan ketentuan yang berlaku\n';
+let title = 'Halaman Terms and Conditions - RCTI+';
+let desc = 'Untuk menggunakan layanan RCTI+, Anda harus mengikuti syarat dan ketentuan yang berlaku';
 let keyword = 'layanan rctiplus, layanan rcti+, rctiplus';
 
 it('Meta T & C', () => { 

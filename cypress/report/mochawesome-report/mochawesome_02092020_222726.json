@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-02-09T15:26:34.124Z",
+    "end": "2020-02-09T15:27:26.751Z",
+    "duration": 52627,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "81cf0c70-b3c8-4dd5-8ce9-cd1cb5698a48",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaExploreEntertainment.spec.js",
+      "file": "cypress\\integration\\meta\\metaExploreEntertainment.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Explore Entertainment",
+          "fullTitle": " Meta Explore Entertainment",
+          "timedOut": null,
+          "duration": 43326,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {},
+          "uuid": "9e9e491c-f1a9-4196-891c-0ebda6fcf8a8",
+          "parentUUID": "81cf0c70-b3c8-4dd5-8ce9-cd1cb5698a48",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 321,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {},
+          "uuid": "d97b49c5-5165-40bc-b3af-b6b5c7ce64d8",
+          "parentUUID": "81cf0c70-b3c8-4dd5-8ce9-cd1cb5698a48",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 200,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {},
+          "uuid": "ee725eb1-63ee-4f59-a8f9-905776b88c1d",
+          "parentUUID": "81cf0c70-b3c8-4dd5-8ce9-cd1cb5698a48",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 30,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {},
+          "uuid": "5a9a805b-185f-4dbd-b0e4-f7e2d91fd5df",
+          "parentUUID": "81cf0c70-b3c8-4dd5-8ce9-cd1cb5698a48",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "9e9e491c-f1a9-4196-891c-0ebda6fcf8a8",
+        "d97b49c5-5165-40bc-b3af-b6b5c7ce64d8",
+        "ee725eb1-63ee-4f59-a8f9-905776b88c1d",
+        "5a9a805b-185f-4dbd-b0e4-f7e2d91fd5df"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 43877,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

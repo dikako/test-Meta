@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/news';
-let title = 'Saksikan Berita Terkini dari Dalam Negeri dan Internasional - RCTI+\n';
-let desc = 'Nonton berita iNews, RCTI, MNC, dan GTV online terkini terkait bisnis, ekonomi, politik, sport, teknologi, bola dan yang lainnya\n';
+let title = 'Saksikan Berita Terkini dari Dalam Negeri dan Internasional - RCTI+';
+let desc = 'Nonton berita iNews, RCTI, MNC, dan GTV online terkini terkait bisnis, ekonomi, politik, sport, teknologi, bola dan yang lainnya';
 let keyword = 'berita terkini, berita inews, berita rcti, berita mnc, berita gtv';
 
 it('Meta News', () => { 

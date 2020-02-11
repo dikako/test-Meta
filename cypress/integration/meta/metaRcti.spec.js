@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/tv/rcti';
-let title = 'Live Streaming RCTI Hari Ini - TV Online Indonesia - RCTI+\n';
-let desc = 'Nonton live streaming RCTI online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara RCTI terbaru hanya di RCTI+\n';
+let title = 'Live Streaming RCTI Hari Ini - TV Online Indonesia - RCTI+';
+let desc = 'Nonton live streaming RCTI online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara RCTI terbaru hanya di RCTI+';
 let keyword = 'streaming rcti, live streaming rcti, rcti live, rcti streaming, rcti live streaming';
 
 it('Meta RCTI', () => { 

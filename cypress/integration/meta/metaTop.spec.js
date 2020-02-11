@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/12/top';
-let title = 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+\n';
-let desc = 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis\n';
+let title = 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+';
+let desc = 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis';
 let keyword = 'berita top, berita top hari ini, berita teratas';
 
 it('Meta Top', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/bloopers';
-let title = 'Kumpulan Video Lucu dari Sinetron Favorit Indonesia - RCTI+\n';
-let desc = 'Nonton video lucu pendek artis sinetron Indonesia program RCTI, MNC, GTV, dan iNews hanya di RCTI+ - Streaming video online terlengkap\n';
+let title = 'Kumpulan Video Lucu dari Sinetron Favorit Indonesia - RCTI+';
+let desc = 'Nonton video lucu pendek artis sinetron Indonesia program RCTI, MNC, GTV, dan iNews hanya di RCTI+ - Streaming video online terlengkap';
 let keyword = 'video lucu, video lucu artis';
 
 it('Meta Bloopers', () => { 

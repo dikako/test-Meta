@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/4/olah-raga';
-let title = 'Berita Olahraga Nasional dan Internasional Terupdate - RCTI+\n';
-let desc = 'Kumpulan berita dan artikel olahraga nasional dan internasional terkini di Indonesia, mulai dari bola, motogp, bulu tangkis, futsal, hingga catur\n';
+let title = 'Berita Olahraga Nasional dan Internasional Terupdate - RCTI+';
+let desc = 'Kumpulan berita dan artikel olahraga nasional dan internasional terkini di Indonesia, mulai dari bola, motogp, bulu tangkis, futsal, hingga catur';
 let keyword = 'berita bola, berita olahraga, bola';
 
 it('Meta Olahraga', () => { 

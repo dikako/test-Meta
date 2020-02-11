@@ -1,0 +1,156 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 1,
+    "pending": 0,
+    "failures": 3,
+    "start": "2020-02-09T15:45:37.769Z",
+    "end": "2020-02-09T15:46:54.791Z",
+    "duration": 77022,
+    "testsRegistered": 4,
+    "passPercent": 25,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "11c5aad1-bff0-469f-868a-767372249ac0",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaOlahraga.spec.js",
+      "file": "cypress\\integration\\meta\\metaOlahraga.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Olahraga",
+          "fullTitle": " Meta Olahraga",
+          "timedOut": null,
+          "duration": 50137,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {},
+          "uuid": "d41f31df-9667-467b-a9d0-a3b2e6011d00",
+          "parentUUID": "11c5aad1-bff0-469f-868a-767372249ac0",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 4929,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaOlahraga.spec.js/ -- Validate Meta Title (failed).png\"",
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Berita Olahraga Nasional dan Internasional Terupdate - RCTI+\\n', but the value was 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Berita Olahraga Nasional dan Internasional Terupdate - RCTI+\\n', but the value was 'Informasi Berita Top Terbaru Hari ini dari Berbagai Sumber Terpercaya - RCTI+\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "420a6282-6ebd-4b0b-a090-044c77b4dc41",
+          "parentUUID": "11c5aad1-bff0-469f-868a-767372249ac0",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 4539,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaOlahraga.spec.js/ -- Validate Meta Description (failed).png\"",
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Kumpulan berita dan artikel olahraga nasional dan internasional terkini di Indonesia, mulai dari bola, motogp, bulu tangkis, futsal, hingga catur\\n', but the value was 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Kumpulan berita dan artikel olahraga nasional dan internasional terkini di Indonesia, mulai dari bola, motogp, bulu tangkis, futsal, hingga catur\\n', but the value was 'Indeks portal berita trending Indonesia dan dunia hari ini dari situs terpercaya, dari peristiwa, politik, tekno, ekonomi, bola, hingga gosip artis\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "75f36740-6900-47eb-9c28-6f1f99f28f6f",
+          "parentUUID": "11c5aad1-bff0-469f-868a-767372249ac0",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 4624,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaOlahraga.spec.js/ -- Validate Meta Keyword (failed).png\"",
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'berita bola, berita olahraga, bola\\n', but the value was 'berita top, berita top hari ini, berita teratas\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'berita bola, berita olahraga, bola\\n', but the value was 'berita top, berita top hari ini, berita teratas\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "2277bfeb-ab57-49bf-af80-2688a2838eed",
+          "parentUUID": "11c5aad1-bff0-469f-868a-767372249ac0",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "d41f31df-9667-467b-a9d0-a3b2e6011d00"
+      ],
+      "failures": [
+        "420a6282-6ebd-4b0b-a090-044c77b4dc41",
+        "75f36740-6900-47eb-9c28-6f1f99f28f6f",
+        "2277bfeb-ab57-49bf-af80-2688a2838eed"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 64229,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

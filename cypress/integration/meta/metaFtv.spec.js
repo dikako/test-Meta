@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=44';
-let title = 'Nonton Sinetron FTV Romantis Terbaru - RCTI+\n';
-let desc = 'Nonton FTV, sinetron, dan acara TV paling menarik untuk menemani hari-harimu. Lihat selengkapnya hanya di RCTI+\n';
+let title = 'Nonton Sinetron FTV Romantis Terbaru - RCTI+';
+let desc = 'Nonton FTV, sinetron, dan acara TV paling menarik untuk menemani hari-harimu. Lihat selengkapnya hanya di RCTI+';
 let keyword = 'ftv, nonton ftv, nonton sinetron, sinetron';
 
 it('Meta FTV', () => { 

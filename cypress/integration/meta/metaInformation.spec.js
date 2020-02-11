@@ -7,8 +7,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 let url = '/explores/search?id=35';
 let title = 'Tayangan Berita dan Informasi Terbaru dari Berbagai Kanal - RCTI+';
-let desc = 'Nonton berita peristiwa, bola, kriminal, travel, teknologi paling update dan terkini tanpa buffering hanya di RCTI+\n';
-let keyword = 'berita paling update\n';
+let desc = 'Nonton berita peristiwa, bola, kriminal, travel, teknologi paling update dan terkini tanpa buffering hanya di RCTI+';
+let keyword = 'berita paling update';
 
 it('Meta Information', () => { 
     // https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script

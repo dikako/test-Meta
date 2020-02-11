@@ -1,0 +1,148 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-02-09T15:21:55.714Z",
+    "end": "2020-02-09T15:23:12.874Z",
+    "duration": 77160,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "864337fb-2e57-457e-b787-00cac169aa3f",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaDrama.spec.js",
+      "file": "cypress\\integration\\meta\\metaDrama.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Drama",
+          "fullTitle": " Meta Drama",
+          "timedOut": null,
+          "duration": 60726,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaDrama.spec.js/ -- Meta Drama (failed).png\"",
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {
+            "message": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.",
+            "estack": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at timedOutWaitingForPageLoad (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:86578:17)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:87361:16\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:131229:41\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "10e6b0a9-cd0c-476d-9cb6-6ac3c966171d",
+          "parentUUID": "864337fb-2e57-457e-b787-00cac169aa3f",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 427,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {},
+          "uuid": "ce1dd8c1-d3f9-4331-9371-696e4b6b97d2",
+          "parentUUID": "864337fb-2e57-457e-b787-00cac169aa3f",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 42,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {},
+          "uuid": "1539635b-a88a-4f07-89b9-3fc7d71aef07",
+          "parentUUID": "864337fb-2e57-457e-b787-00cac169aa3f",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 32,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {},
+          "uuid": "e5cf41f8-57ee-423e-bb85-a519d5714400",
+          "parentUUID": "864337fb-2e57-457e-b787-00cac169aa3f",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "ce1dd8c1-d3f9-4331-9371-696e4b6b97d2",
+        "1539635b-a88a-4f07-89b9-3fc7d71aef07",
+        "e5cf41f8-57ee-423e-bb85-a519d5714400"
+      ],
+      "failures": [
+        "10e6b0a9-cd0c-476d-9cb6-6ac3c966171d"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 61227,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

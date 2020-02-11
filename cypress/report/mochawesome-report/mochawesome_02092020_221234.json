@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2020-02-09T15:11:01.182Z",
+    "end": "2020-02-09T15:12:34.783Z",
+    "duration": 93601,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "06fc64a2-c19c-4f49-93b2-6b21ddcd2497",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaBeritaTerkini.spec.js",
+      "file": "cypress\\integration\\meta\\metaBeritaTerkini.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Berita Terkini",
+          "fullTitle": " Meta Berita Terkini",
+          "timedOut": null,
+          "duration": 60621,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaBeritaTerkini.spec.js/ -- Meta Berita Terkini (failed).png\"",
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {
+            "message": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.",
+            "estack": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at timedOutWaitingForPageLoad (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:86578:17)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:87361:16\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:131229:41\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "0d6ed8ad-7b05-4ab8-8eb6-d8a09b738e7d",
+          "parentUUID": "06fc64a2-c19c-4f49-93b2-6b21ddcd2497",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 4544,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaBeritaTerkini.spec.js/ -- Validate Meta Title (failed).png\"",
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {
+            "message": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"title\"]', but never found it.",
+            "estack": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"title\"]', but never found it.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "6ce45985-6602-44d5-b250-9f87925b6a82",
+          "parentUUID": "06fc64a2-c19c-4f49-93b2-6b21ddcd2497",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 4536,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaBeritaTerkini.spec.js/ -- Validate Meta Description (failed).png\"",
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {
+            "message": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"description\"]', but never found it.",
+            "estack": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"description\"]', but never found it.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "30319e9c-5f6b-412e-b7a4-4e1dfe06cd49",
+          "parentUUID": "06fc64a2-c19c-4f49-93b2-6b21ddcd2497",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 4552,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaBeritaTerkini.spec.js/ -- Validate Meta Keyword (failed).png\"",
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {
+            "message": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"keywords\"]', but never found it.",
+            "estack": "CypressError: Timed out retrying: Expected to find element: 'head meta[name=\"keywords\"]', but never found it.\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "963f1071-67ad-48d2-98e1-bb2b75fc3f9f",
+          "parentUUID": "06fc64a2-c19c-4f49-93b2-6b21ddcd2497",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "0d6ed8ad-7b05-4ab8-8eb6-d8a09b738e7d",
+        "6ce45985-6602-44d5-b250-9f87925b6a82",
+        "30319e9c-5f6b-412e-b7a4-4e1dfe06cd49",
+        "963f1071-67ad-48d2-98e1-bb2b75fc3f9f"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 74253,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

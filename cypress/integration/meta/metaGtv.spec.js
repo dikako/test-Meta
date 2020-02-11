@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/tv/gtv';
-let title = 'Live Streaming Global TV (GTV) Hari Ini | TV Online Indonesia - RCTI+\n';
-let desc = 'Nonton live streaming GTV online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara Global TV terbaru hanya di RCTI+\n';
+let title = 'Live Streaming Global TV (GTV) Hari Ini | TV Online Indonesia - RCTI+';
+let desc = 'Nonton live streaming GTV online hari ini tanpa buffering untuk semua program dan acara favorit yang tayang setiap hari. Dapatkan juga jadwal acara Global TV terbaru hanya di RCTI+';
 let keyword = 'global tv, gtv jadwal, tv bersama gtv, live streaming gtv sekarang, siaran langsung gtv';
 
 it('Meta GTV', () => { 

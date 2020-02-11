@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=23';
-let title = 'Nonton Tayangan Program Reality Show Terbaru - RCTI+\n';
-let desc = 'Nonton reality show terbaik di RCTI, MNC TV, GTV dan iNews full episode tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Tayangan Program Reality Show Terbaru - RCTI+';
+let desc = 'Nonton reality show terbaik di RCTI, MNC TV, GTV dan iNews full episode tanpa buffering hanya di RCTI+';
 let keyword = 'reality show, program tv, program tv hari ini';
 
 it('Meta Reality Show', () => { 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.481" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-02-09T13:44:57" tests="4" file="cypress\integration\meta\metaBeritaTerkini.spec.js" failures="1" time="0.481">
+    <testcase name=" Meta Berita Terkini" time="0" classname="Meta Berita Terkini">
+      <failure message="Timed out after waiting &apos;60000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;60000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting '60000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '60000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)
+    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)
+    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)
+    at timedOutWaitingForPageLoad (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:86578:17)
+    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:87361:16
+    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)
+    at https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:131229:41
+    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)
+    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)
+    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)
+    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)
+    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)
+    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)]]></failure>
+    </testcase>
+    <testcase name=" Validate Meta Title" time="0.425" classname="Validate Meta Title">
+    </testcase>
+    <testcase name=" Validate Meta Description" time="0.036" classname="Validate Meta Description">
+    </testcase>
+    <testcase name=" Validate Meta Keyword" time="0.02" classname="Validate Meta Keyword">
+    </testcase>
+  </testsuite>
+</testsuites>

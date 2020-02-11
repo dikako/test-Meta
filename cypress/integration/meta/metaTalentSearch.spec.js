@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=19';
-let title = 'Nonton Acara TV Ajang Pencarian Bakat Terbaru - RCTI+\n';
-let desc = 'Nonton video ajang pencarian bakat nyanyi, sulap, atraksi dan lainnya terpopuler di Indonesia tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Acara TV Ajang Pencarian Bakat Terbaru - RCTI+';
+let desc = 'Nonton video ajang pencarian bakat nyanyi, sulap, atraksi dan lainnya terpopuler di Indonesia tanpa buffering hanya di RCTI+';
 let keyword = 'ajang pencarian bakat';
 
 it('Meta Talent Search', () => { 

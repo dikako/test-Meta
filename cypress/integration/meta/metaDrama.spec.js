@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=1';
-let title = 'Nonton Kumpulan Drama & Sinetron Terbaik dan Terbaru - RCTI+\n';
-let desc = 'Nonton drama acara sinetron romantis, religi dan misteri favoritmu full episode tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Kumpulan Drama & Sinetron Terbaik dan Terbaru - RCTI+';
+let desc = 'Nonton drama acara sinetron romantis, religi dan misteri favoritmu full episode tanpa buffering hanya di RCTI+';
 let keyword = 'nonton drama';
 
 it('Meta Drama', () => { 

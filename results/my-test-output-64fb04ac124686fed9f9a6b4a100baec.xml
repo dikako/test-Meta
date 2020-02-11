@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.873" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-02-09T13:47:54" tests="4" file="cypress\integration\meta\metaChildren.spec.js" failures="3" time="10.873">
+    <testcase name=" Meta Children" time="10.873" classname="Meta Children">
+    </testcase>
+    <testcase name=" Validate Meta Title" time="0" classname="Validate Meta Title">
+      <failure message="Timed out retrying: expected &apos;&lt;meta&gt;&apos; to have attribute &apos;content&apos; with the value &apos;Nonton Film Kartun Lucu dan Program TV Anak Lainnya - RCTI+\n&apos;, but the value was &apos;Tayangan Berita dan Informasi Terbaru dari Berbagai Kanal - RCTI+\n&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Nonton Film Kartun Lucu dan Program TV Anak Lainnya - RCTI+\n', but the value was 'Tayangan Berita dan Informasi Terbaru dari Berbagai Kanal - RCTI+\n'
+    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)
+    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)
+    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)
+    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)
+    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)
+    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)
+    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)
+    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)
+    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)
+    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)
+    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)]]></failure>
+    </testcase>
+    <testcase name=" Validate Meta Description" time="0" classname="Validate Meta Description">
+      <failure message="Timed out retrying: expected &apos;&lt;meta&gt;&apos; to have attribute &apos;content&apos; with the value &apos;Nonton tayangan program dan acara kartun animasi, kartun anak lucu dan paling baru hanya di RCTI+\n&apos;, but the value was &apos;Nonton berita peristiwa, bola, kriminal, travel, teknologi paling update dan terkini tanpa buffering hanya di RCTI+\n&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Nonton tayangan program dan acara kartun animasi, kartun anak lucu dan paling baru hanya di RCTI+\n', but the value was 'Nonton berita peristiwa, bola, kriminal, travel, teknologi paling update dan terkini tanpa buffering hanya di RCTI+\n'
+    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)
+    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)
+    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)
+    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)
+    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)
+    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)
+    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)
+    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)
+    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)
+    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)
+    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)]]></failure>
+    </testcase>
+    <testcase name=" Validate Meta Keyword" time="0" classname="Validate Meta Keyword">
+      <failure message="Timed out retrying: expected &apos;&lt;meta&gt;&apos; to have attribute &apos;content&apos; with the value &apos;film kartun, film kartun lucu, film kartun anak\n&apos;, but the value was &apos;berita paling update\n&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'film kartun, film kartun lucu, film kartun anak\n', but the value was 'berita paling update\n'
+    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)
+    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)
+    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)
+    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)
+    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)
+    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)
+    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)
+    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)
+    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)
+    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)
+    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

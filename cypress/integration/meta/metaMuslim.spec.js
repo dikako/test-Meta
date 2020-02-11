@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/14/muslim';
-let title = 'Kabar dan Berita Muslim Terbaru Hari Ini - RCTI+\n';
-let desc = 'Kumpulan berita, artikel dan tips terhangat seputar muslim, dan islam nasional dan internasional terkini di Indonesia\n';
+let title = 'Kabar dan Berita Muslim Terbaru Hari Ini - RCTI+';
+let desc = 'Kumpulan berita, artikel dan tips terhangat seputar muslim, dan islam nasional dan internasional terkini di Indonesia';
 let keyword = 'kabar muslim terbaru, berita muslim';
 
 it('Meta Muslim', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/7/bisnis';
-let title = 'Info Berita Bisnis Terkini Nasional dan Dunia - RCTI+\n';
-let desc = 'Kumpulan berita, artikel dan tips terhangat seputar bisnis, finansial, investasi, dan ekonomi, UKM nasional dan internasional terkini di Indonesia\n';
+let title = 'Info Berita Bisnis Terkini Nasional dan Dunia - RCTI+';
+let desc = 'Kumpulan berita, artikel dan tips terhangat seputar bisnis, finansial, investasi, dan ekonomi, UKM nasional dan internasional terkini di Indonesia';
 let keyword = 'berita bisnis, kabar bisnis hari ini, berita bisnis terbaru';
 
 it('Meta Bisnis', () => { 

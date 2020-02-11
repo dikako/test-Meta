@@ -2,5 +2,23 @@
   "baseUrl": "http://rc-ssr.rctiplus.com",
   "userAgent": "testing",
   "chromeWebSecurity": false,
-  "projectId": "456khc"
+  "projectId": "456khc",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "reportDir": "cypress/report/mochawesome-report",
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "timestamp": "mmddyyyy_HHMMss"
+   },
+
+   "reporter": "mochawesome",
+   "reporterOptions": {
+       "reportDir": "cypress/report/mochawesome-report",
+       "overwrite": false,
+       "html": false,
+       "json": true,
+       "timestamp": "mmddyyyy_HHMMss"
+    },
+    "screenshotsFolder": "cypress/report/mochawesome-report/assets"
 }

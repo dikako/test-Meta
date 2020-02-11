@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/1/berita-terkini';
-let title = 'Berita Terkini, Viral dan Terbaru Dalam Negeri dan Internasional - RCTI+\n';
-let desc = 'Baca berita terkini yang sedang viral dari dalam negeri dan luar yang dikumpulkan dari berbagai situs terpercaya dan teraktual\n';
+let title = 'Berita Terkini, Viral dan Terbaru Dalam Negeri dan Internasional - RCTI+';
+let desc = 'Baca berita terkini yang sedang viral dari dalam negeri dan luar yang dikumpulkan dari berbagai situs terpercaya dan teraktual';
 let keyword = 'berita terkini';
 
 it('Meta Berita Terkini', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=18';
-let title = 'Nonton Tayangan Acara Spesial Terbaru - RCTI+\n';
-let desc = 'Nonton tayangan program dan acara momentum spesial dan besar di Indonesia tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Tayangan Acara Spesial Terbaru - RCTI+';
+let desc = 'Nonton tayangan program dan acara momentum spesial dan besar di Indonesia tanpa buffering hanya di RCTI+';
 let keyword = 'special events';
 
 it('Meta Special Event', () => { 

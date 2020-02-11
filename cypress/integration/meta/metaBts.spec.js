@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/behind-the-scenes';
-let title = 'Cuplikan Behind the Scenes Eksklusif Hanya di RCTI+ - RCTI+\n';
-let desc = 'Nonton behind the scenes, cuplikan lucu program dan acara TV RCTI, MNC, GTV, iNews Online Indonesia\n';
+let title = 'Cuplikan Behind the Scenes Eksklusif Hanya di RCTI+ - RCTI+';
+let desc = 'Nonton behind the scenes, cuplikan lucu program dan acara TV RCTI, MNC, GTV, iNews Online Indonesia';
 let keyword = 'behind the scene rcti, behind the scene mnc, behind the scene inews, behind the scene gtv, behind the scene';
 
 it('Meta BTS', () => { 

@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/3/gaya-hidup';
-let title = 'Informasi Gaya Hidup, Lifestyle, dan Fashion Terkini - RCTI+\n';
-let desc = 'Kumpulan berita dan artikel gaya hidup, lifestyle, dan fashional dari artis serta publik figure nasional dan internasional terkini di Indonesia\n';
+let title = 'Informasi Gaya Hidup, Lifestyle, dan Fashion Terkini - RCTI+';
+let desc = 'Kumpulan berita dan artikel gaya hidup, lifestyle, dan fashional dari artis serta publik figure nasional dan internasional terkini di Indonesia';
 let keyword = 'berita lifestyle, berita gaya hidup, lifestyle';
 
 it('Meta Gaya Hidup', () => { 

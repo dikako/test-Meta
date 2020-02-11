@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/13/otomotif';
-let title = 'Berita Otomotif Mobil dan Motor Terbaru Hari Ini - RCTI+\n';
-let desc = 'Kumpulan berita, artikel dan tips terhangat seputar otomotif, motor dan mobil nasional dan internasional terkini di Indonesia\n';
+let title = 'Berita Otomotif Mobil dan Motor Terbaru Hari Ini - RCTI+';
+let desc = 'Kumpulan berita, artikel dan tips terhangat seputar otomotif, motor dan mobil nasional dan internasional terkini di Indonesia';
 let keyword = 'otomotif, berita otomotif, berita otomotif terbaru, kabar otomotif';
 
 it('Meta Otomatif', () => { 

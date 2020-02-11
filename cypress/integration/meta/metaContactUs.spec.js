@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/contact-us';
-let title = 'Hubungi Kami - RCTI+\n';
-let desc = 'Hubungi kami terkait informasi, kebijakan privasi, serta syarat dan ketentuan yang ada di RCTI+ melalui halaman ini\n';
+let title = 'Hubungi Kami - RCTI+';
+let desc = 'Hubungi kami terkait informasi, kebijakan privasi, serta syarat dan ketentuan yang ada di RCTI+ melalui halaman ini';
 let keyword = 'hubungi rctiplus, hubungi rcti+, rctiplus';
 
 it('Meta Contact Us', () => { 

@@ -1,0 +1,156 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 1,
+    "pending": 0,
+    "failures": 3,
+    "start": "2020-02-09T15:49:54.499Z",
+    "end": "2020-02-09T15:50:48.677Z",
+    "duration": 54178,
+    "testsRegistered": 4,
+    "passPercent": 25,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "37346c92-fbc3-4095-994f-aaf65bc89335",
+      "title": "",
+      "fullFile": "cypress\\integration\\meta\\metaPrivacyPolice.spec.js",
+      "file": "cypress\\integration\\meta\\metaPrivacyPolice.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Meta Privacy Police",
+          "fullTitle": " Meta Privacy Police",
+          "timedOut": null,
+          "duration": 31162,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "// https://docs.cypress.io/guides/references/error-messages.html#Cypress-detected-that-an-uncaught-error-was-thrown-from-a-cross-origin-script\ncy.visit(url);",
+          "err": {},
+          "uuid": "2ad718a7-c075-4f95-bfd9-d77f71ab250a",
+          "parentUUID": "37346c92-fbc3-4095-994f-aaf65bc89335",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Title",
+          "fullTitle": " Validate Meta Title",
+          "timedOut": null,
+          "duration": 4728,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaPrivacyPolice.spec.js/ -- Validate Meta Title (failed).png\"",
+          "code": "cy.get('head meta[name=\"title\"]').should('have.attr', 'content', title);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Halaman Privacy Policy - RCTI+\\n', but the value was 'Hubungi Kami - RCTI+\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Halaman Privacy Policy - RCTI+\\n', but the value was 'Hubungi Kami - RCTI+\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "81352495-81e7-45d2-a315-d7592893530f",
+          "parentUUID": "37346c92-fbc3-4095-994f-aaf65bc89335",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Description",
+          "fullTitle": " Validate Meta Description",
+          "timedOut": null,
+          "duration": 4509,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaPrivacyPolice.spec.js/ -- Validate Meta Description (failed).png\"",
+          "code": "cy.get('head meta[name=\"description\"]').should('have.attr', 'content', desc);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Kebijakan privasi ini menjelaskan teknik dan proses kerja kami tentang informasi yang terkumpul melalui layanan internet, mobile, aplikasi dan widget pada RCTI+\\n', but the value was 'Hubungi kami terkait informasi, kebijakan privasi, serta syarat dan ketentuan yang ada di RCTI+ melalui halaman ini\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'Kebijakan privasi ini menjelaskan teknik dan proses kerja kami tentang informasi yang terkumpul melalui layanan internet, mobile, aplikasi dan widget pada RCTI+\\n', but the value was 'Hubungi kami terkait informasi, kebijakan privasi, serta syarat dan ketentuan yang ada di RCTI+ melalui halaman ini\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "34feccfd-7da0-417f-8ab0-e6c8256704ac",
+          "parentUUID": "37346c92-fbc3-4095-994f-aaf65bc89335",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Validate Meta Keyword",
+          "fullTitle": " Validate Meta Keyword",
+          "timedOut": null,
+          "duration": 4533,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "\"assets/meta\\\\metaPrivacyPolice.spec.js/ -- Validate Meta Keyword (failed).png\"",
+          "code": "cy.get('head meta[name=\"keywords\"]').should('have.attr', 'content', keyword);",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'privasi rctiplus, privasi rcti+, rctiplus\\n', but the value was 'hubungi rctiplus, hubungi rcti+, rctiplus\\n'",
+            "estack": "CypressError: Timed out retrying: expected '<meta>' to have attribute 'content' with the value 'privasi rctiplus, privasi rcti+, rctiplus\\n', but the value was 'hubungi rctiplus, hubungi rcti+, rctiplus\\n'\n    at Object.cypressErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102176:11)\n    at Object.throwErr (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102128:18)\n    at Object.throwErrByPath (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:102163:17)\n    at retry (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:92756:16)\n    at onFailFn (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:80982:16)\n    at tryCatcher (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:136088:23)\n    at Promise._settlePromiseFromHandler (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134024:31)\n    at Promise._settlePromise (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134081:18)\n    at Promise._settlePromise0 (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134126:10)\n    at Promise._settlePromises (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:134201:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130813:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130823:10)\n    at Async.drainQueues (https://rc-ssr.rctiplus.com/__cypress/runner/cypress_runner.js:130697:14)",
+            "diff": null
+          },
+          "uuid": "114d915b-f886-4e5d-9711-8e1ebd36be56",
+          "parentUUID": "37346c92-fbc3-4095-994f-aaf65bc89335",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "2ad718a7-c075-4f95-bfd9-d77f71ab250a"
+      ],
+      "failures": [
+        "81352495-81e7-45d2-a315-d7592893530f",
+        "34feccfd-7da0-417f-8ab0-e6c8256704ac",
+        "114d915b-f886-4e5d-9711-8e1ebd36be56"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 44932,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

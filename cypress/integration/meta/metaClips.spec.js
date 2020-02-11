@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/exclusive/clip';
-let title = 'Saksikan Clip Video Menarik dan Lucu Sinetron Indonesia - RCTI+\n';
-let desc = 'Nonton potongan video lucu, menarik dan pendek dari berbagai sinetron favorit orang Indonesia, mulai dari permasalahan ekomoni, horor, hingga romantisnya percintaan\n';
+let title = 'Saksikan Clip Video Menarik dan Lucu Sinetron Indonesia - RCTI+';
+let desc = 'Nonton potongan video lucu, menarik dan pendek dari berbagai sinetron favorit orang Indonesia, mulai dari permasalahan ekomoni, horor, hingga romantisnya percintaan';
 let keyword = 'video menarik, video lucu, video lucu pendek';
 
 it('Meta Clips', () => { 

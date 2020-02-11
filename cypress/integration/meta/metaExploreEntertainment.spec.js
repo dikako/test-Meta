@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=39';
-let title = 'Nonton Gosip dan Hiburan Dunia Artis Terbaru - RCTI+\n';
-let desc = 'Nonton gosip, hiburan dan entertainment online dari artis top dunia dan Indonesia paling lengkap dan tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Gosip dan Hiburan Dunia Artis Terbaru - RCTI+';
+let desc = 'Nonton gosip, hiburan dan entertainment online dari artis top dunia dan Indonesia paling lengkap dan tanpa buffering hanya di RCTI+';
 let keyword = 'gosip artis, gosip artis terbaru';
 
 it('Meta Explore Entertainment', () => { 

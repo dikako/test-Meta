@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=16';
-let title = 'Nonton Program Komedi Terbaru Paling Kocak - RCTI+\n';
-let desc = 'Nonton program acara situasi komedi paling lucu favoritmu full episode tanpa buffering hanya di RCTI+\n';
+let title = 'Nonton Program Komedi Terbaru Paling Kocak - RCTI+';
+let desc = 'Nonton program acara situasi komedi paling lucu favoritmu full episode tanpa buffering hanya di RCTI+';
 let keyword = 'video komedi lucu, video lucu komedi';
 
 it('Meta Sitkom', () => { 

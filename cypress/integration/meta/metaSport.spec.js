@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/explores/search?id=43';
-let title = 'Nonton Bola dan Video Olahraga Lainnya Terbaru - RCTI+\n';
-let desc = 'Nonton bola online dan highlight olahraga lainnya paling lengkap dan terupdate liga Champion, Inggris, Italia, Indonesia dan lainnya hanya di RCTI+\n';
+let title = 'Nonton Bola dan Video Olahraga Lainnya Terbaru - RCTI+';
+let desc = 'Nonton bola online dan highlight olahraga lainnya paling lengkap dan terupdate liga Champion, Inggris, Italia, Indonesia dan lainnya hanya di RCTI+';
 let keyword = 'nonton bola';
 
 it('Meta Sport', () => { 

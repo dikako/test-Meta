@@ -6,8 +6,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/trending/2/hiburan';
-let title = 'Gosip dan Hiburan Terbaru Artis Dalam Negeri & Internasional - RCTI+\n';
-let desc = 'Kumpulan berita dan artikel hiburan dari gosip artis nasional dan internasional terkini di Indonesia\n';
+let title = 'Gosip dan Hiburan Terbaru Artis Dalam Negeri & Internasional - RCTI+';
+let desc = 'Kumpulan berita dan artikel hiburan dari gosip artis nasional dan internasional terkini di Indonesia';
 let keyword = 'berita hiburan, artikel hiburan';
 
 it('Meta Hiburan', () => { 
