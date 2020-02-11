@@ -38,15 +38,13 @@ it('Validate Meta Description', () => {
 
             expect(isMatch).to.not.equal(-1);
 
-            if (isMatch != -1) {
-                cy.log('True');
-            } else {
-                cy.log('False');
-            }
+            // if (isMatch != -1) {
+            //     cy.log('True');
+            // } else {
+            //     cy.log('False');
+            // }
         
         });
-
-    cy.log('haha');
     // cy.get('head meta[name="description"]')
     //     .should('have.attr', 'content', descRegexp);
 

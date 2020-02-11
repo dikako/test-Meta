@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 let url = '/';
-let title = 'RCTI+ - Live Streaming Program 4 TV Terpopuler';
+let title = 'RCTI+ - Live Streaming Program 4 TV Terpopuler Ganteng';
 let desc = 'Live Streaming Program RCTI, MNCTV, GTV & iNews. Menyajikan konten eksklusif yang tidak tayang di TV & Informasi Trending Terupdate. Nonton Gak Monoton di RCTI+.';
 let keyword = 'rctiplus, rcti plus, rcti+';
 
@@ -16,8 +16,13 @@ it('Meta Homepage', () => {
 });
 
 it('Validate Meta Title', () => {
-    cy.get('head meta[name=title]')
-        .should('have.attr', 'content', title);
+    // cy.get('head meta[name=title]')
+    //     .should('have.attr', 'content', title);
+    let titleElement = cy.get('head meta[name=title]').invoke('attr', 'content')
+    .then($getTitle => {
+        const titleText = $getTitle;
+        expect(title).to.equal(titleText);
+    })
 });
 
 it('Validate Meta Description', () => {
